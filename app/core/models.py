@@ -44,4 +44,3 @@ class User(AbstractBaseUser, PermissionsMixin):
 
     # Replace the default username field with the user's email.
     USERNAME_FIELD = 'email'
-
